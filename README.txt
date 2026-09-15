@@ -409,3 +409,51 @@ tecnológico, no colores llamativos ni disruptivos"):
   paleta.
 - Sin cambios en el verde de WhatsApp, el rojo de YouTube ni la banda
   de cookies (colores de terceros / estándar de familia).
+
+────────────────────────────────────────────────────────────
+ADAPTACIÓN A VICALVAROTECH | MANTENIMIENTO INFORMÁTICO VICÁLVARO
+(repositorio clonado a partir de RetiroTech)
+────────────────────────────────────────────────────────────
+
+MARCA Y TEXTOS:
+- "RetiroTech" → "VicalvaroTech" en cabecera, pie de página, JSON-LD
+  (name) y mensaje prellenado de WhatsApp ("¡Hola VicalvaroTech").
+- Title: "VicalvaroTech | Mantenimiento Informático Vicálvaro" (texto
+  exacto indicado por el cliente). Meta description, og:title y
+  og:description reescritos mencionando Vicálvaro, Madrid.
+- H1 propio de 9 palabras exactas, distinto de los de los repos
+  hermanos: "Nos encargamos de tu tecnología, tú dedícate a vender."
+- Fila "Zona": "Retiro, Madrid" → "Vicálvaro, Madrid".
+- FAQ "¿Trabajáis solo en Retiro?" → "¿Trabajáis solo en Vicálvaro?",
+  con la respuesta actualizada igual.
+- Tarjeta de información de contacto: el h2 actualizado al título
+  exacto de esta web: "VicalvaroTech | Mantenimiento Informático
+  Vicálvaro" (se corrigió aparte, ya que el rebranding automático solo
+  cambiaba el nombre de marca y dejaba "en Retiro" sin tocar).
+- JSON-LD: description y areaServed actualizados a Vicálvaro, Madrid.
+
+DOMINIO Y ENLACES:
+- canonical, og:url y JSON-LD "url" → https://mantenimientoinformaticopymevicalvaro.es/
+  (dominio indicado directamente por el cliente; distinto del nombre
+  del repositorio en GitHub, informaticopymevicalvaro.es, sin el
+  prefijo "mantenimiento").
+- sitemap.xml y robots.txt actualizados al nuevo dominio.
+- Enlace de Google Maps actualizado en las 4 ubicaciones del sitio a
+  https://maps.app.goo.gl/erkabwdCW28Sf9tL9, proporcionado por el
+  cliente.
+
+TELÉFONO Y WHATSAPP: sin cambios, mismo número compartido por toda la
+familia.
+
+COLOR (regla permanente de la subfamilia — siempre se cambia, aunque
+no se pida explícitamente):
+- Nueva paleta esmeralda vivo, distinta de las siete anteriores de la
+  subfamilia: --blue:#5b5fa8→#007a56, --indigo:#3d4f73→#004d38,
+  --cyan:#8f93e0→#4de8b8. Deliberadamente más oscuro/rico y con un
+  matiz distinto (más azulado) que el verde plano de WhatsApp
+  (#25D366), para que ambos colores convivan en la página sin
+  confundirse. Fondo oscuro base (--bg/--bg2) sin tocar.
+- Todos los tonos derivados (fondos de iconos claros, textos en color
+  sobre fondo oscuro, badges, bordes de hover, sombras de botones)
+  recalculados a la misma paleta, mismo contraste que antes.
+- Isotipo (assets/isotipo.svg) recoloreado a juego.
